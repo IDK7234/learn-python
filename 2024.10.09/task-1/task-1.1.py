@@ -1,8 +1,7 @@
-
-def Sep(line: str, sep: str):
+def sep(line: str, sep: str) -> list():
     return line.split(sep)
 
+
 if __name__ == '__main__':
-    a1 = str(input("Enter your line: "))
     a2 = str(input("Enter separator: "))
-    print(Sep(a1, a2))
+    print(sep("I wanna:live/forever,something", a2))
