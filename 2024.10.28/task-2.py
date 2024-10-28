@@ -15,7 +15,6 @@ for i in range(3):
     a1 = re.split("\"", a[i])
     y = a1[3].split('-')
     x = datetime.datetime(int(y[0]), int(y[1]), int(y[2]))
-
     delta = x - today_date
     print(delta)
 
