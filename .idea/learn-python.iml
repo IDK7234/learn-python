@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/2024.10.30" />
     </content>
-    <orderEntry type="jdk" jdkName="pythonProject1" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="blitz-croco-words2_0" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
