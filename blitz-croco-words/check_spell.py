@@ -1,7 +1,11 @@
 import pyaspeller
 
-def check(a:str):
-    return pyaspeller.YandexSpeller().spelled(a)
+def check(a:list):
+    b:list = []
+    for i in range(len(a)):
+        b.append(pyaspeller.YandexSpeller().spelled(a[i]))
+    return b
 
 if __name__ == '__main__':
-    print(check("Колакал малако"))
+    a: list = ["Колакал", "Малако"]
+    print(check(a))
