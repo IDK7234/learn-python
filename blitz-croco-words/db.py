@@ -6,7 +6,7 @@ def add_data(con: sqlite3.Connection, name:str, dic: {str,str}) -> None:
     cur = con.cursor()
     cur.executemany(f"INSERT INTO {name} VALUES(?, ?)", dic)
     con.commit()
-    cur.close()
+
 
 
 def main():
